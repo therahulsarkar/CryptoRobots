@@ -1,0 +1,18 @@
+{
+    "name": "Crypto Robot 18",
+    "description": "Crypto Robots NFT collection",
+    "image": "https://ipfs.io/ipfs/QmXBTSuCZvckNymZg8vtmvoSpbsBikRdNnDjQnwMs2ku7j/18.svg",
+    "attributes": [
+        {
+        "color" :"Green",
+        "value": 18
+        },
+        {
+        "antena": "Invisible",
+        "visible": false
+        },
+        {
+        "smile": false
+        }
+]
+}
