@@ -15,10 +15,9 @@ contract CryptoRobots is ERC721URIStorage {
 
     function mint( string memory tokenURI) public returns (uint256){ //Here the tokenURI is the ipfs link of the JSON files of individual NFT images 
         _tokenID.increment(); 
-
         uint256 newItemId = _tokenID.current(); 
-        _mint(msg.sender, newItemId); 
-        _setTokenURI(newItemId, tokenURI); 
+        _mint(msg.sender, newItemId); // 0xa9535.....9A7F -> ID
+        _setTokenURI(newItemId, tokenURI); //ID -> https://ipfs.io/ipfs/QmWbLc/10.json
  
         return newItemId;
     }

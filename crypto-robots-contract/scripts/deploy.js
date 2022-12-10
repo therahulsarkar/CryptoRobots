@@ -7,6 +7,7 @@ async function main(){
 
   await cryptoRobots.deployed();
   console.log(`Contract successfully deployed to ${cryptoRobots.address}`);
+  
   const newItemId = await cryptoRobots.mint("https://ipfs.io/ipfs/QmWbLcGAL9PZPo6wo6ApsLCTV8AsA2582AQRVJmYQcfVsr/1.json");
   console.log(`NFT minted successfully :: ${newItemId}`);
 }
